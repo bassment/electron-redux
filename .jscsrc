@@ -1,4 +1,5 @@
 {
+  "preset": "google",
   "esprima": "babel-jscs",
   "esnext": true,
   "requireCurlyBraces": ["else", "for", "while", "do", "try", "catch", "case", "default"],
