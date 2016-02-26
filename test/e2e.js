@@ -96,8 +96,8 @@ describe('main window', function spec() {
     expect(await counter.getText()).to.equal('2');
 
     await this.driver.wait(() =>
-      counter.getText().then(text => text === '3')
-    , 1000, 'count not as expected');
+      counter.getText().then(text => text === '3'),
+      1000, 'count not as expected');
   });
 
   it('should back to home if back button clicked', async () => {
